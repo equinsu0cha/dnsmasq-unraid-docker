@@ -7,11 +7,10 @@ services:
         ports:
             - '53:53/tcp'
             - '53:53/udp'
-        environment:
-            ADDITIONAL_PARAMS: '--server=8.8.8.8 --server=8.8.4.4 --address=/example.com/192.168.0.42'
+            - '67:67/udp'
+            - '67:67/tcp'
         dns:
             - 127.0.0.1
-            - 1.1.1.1
         cap_add:
             - NET_ADMIN
 
