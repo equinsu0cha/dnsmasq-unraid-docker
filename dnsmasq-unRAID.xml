@@ -29,17 +29,10 @@
 
         If you want ad-blocking too, try changing your --address DNS server IPs to be a Pihole.
     </Overview>
-    <Registry>https://registry.hub.docker.com/u/codesaru/dnsmasq</Registry>
-    <Repository>codesaru/dnsmasq</Repository>
+    <Registry>https://github.com/equinsu0cha/dnsmasq-unraid-docker</Registry>
+    <Repository>dnsmasq</Repository>
     <WebUI/>
     <Icon/>
-
-    <Environment>
-        <Variable>
-            <Name>ADDITIONAL_PARAMS</Name>
-            <Value>--server=8.8.8.8 --server=8.8.4.4 --address=/example.com/192.168.0.42</Value>
-        </Variable>
-    </Environment>
 
     <Networking>
         <Mode>bridge</Mode>
