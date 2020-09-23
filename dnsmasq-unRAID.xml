@@ -53,6 +53,16 @@
             <ContainerPort>53</ContainerPort>
             <Protocol>udp</Protocol>
         </Publish>
+        <Publish>
+            <HostPort>67</HostPort>
+            <ContainerPort>67</ContainerPort>
+            <Protocol>tcp</Protocol>
+        </Publish>
+        <Publish>
+            <HostPort>67</HostPort>
+            <ContainerPort>67</ContainerPort>
+            <Protocol>udp</Protocol>
+        </Publish>
     </Networking>
 
     <Data/>
